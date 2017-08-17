@@ -1,0 +1,39 @@
+*{
+	margin : 0 auto;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+#contenedor {
+    width: 600px;
+    height: 400px;
+    border: 3px solid #555;
+    margin-top: 50px;
+    position: relative;
+}
+
+#imgFondo{
+	width: 600px;
+    height: 400px;	
+}
+#lab1{
+	width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;	
+}
+#lab2{
+	width: 200px;
+    position: absolute;
+    top: 0;	
+}
+#trapecio {
+    width: 329px;
+    height: 0px;
+    border-left: 195px solid transparent;
+    border-bottom: 401px solid #363d43;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
