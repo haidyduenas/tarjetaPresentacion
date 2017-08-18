@@ -14,7 +14,8 @@
 
 #imgFondo{
 	width: 600px;
-    height: 400px;	
+    height: 400px;
+    -webkit-filter: sepia(25%);	
 }
 #lab1{
 	width: 100px;
@@ -26,14 +27,57 @@
 #lab2{
 	width: 200px;
     position: absolute;
-    top: 0;	
+    top: 2px;
+    right: 360px;	
 }
+#cod {
+	width: 199px;
+    position: absolute;
+    top: 50px;
+    left: 61px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    color: #e3ae12;
+}
+
 #trapecio {
-    width: 329px;
+    width: 205px;
     height: 0px;
-    border-left: 195px solid transparent;
-    border-bottom: 401px solid #363d43;
+    border-left: 273px solid transparent;
+    border-bottom: 400px solid #363d43;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+#nombre{
+	width: 195px;
+    position: absolute;
+    top: 73px;
+    right: 48px;
+    font-size: 27px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#front{
+	width: 195px;
+    position: absolute;
+    top: 168px;
+    right: 20px;
+    font-size :20px;
+    font-family: 'Roboto', sans-serif;
+    color : #ffbc00;
+}
+
+#telefono{
+	width: 307px;
+    position: absolute;
+    right: 102px;
+    font-size: 16px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+    color: #e3d8bc;
+    bottom: 30px;
 }
